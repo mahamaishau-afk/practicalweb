@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dedede;
+    color: black;
+    padding: 20px;
+    /* position: sticky;
+    top: 0; */
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.grid{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+}
+
+
+.cards{
+     background: darkgrey;
+    padding: 1.5rem;
+    border-top: 5px solid rgb(250, 136, 43);
+}
+
+img{
+    max-width: 100%;
+}
+
+#contact{
+    padding: 40px;
+    max-width: none;
+    background: thistle;
+    
+}
+
+
+footer{
+    background: #dedede;
+    padding: 28px;
+    text-align: center;
+}
+
+body{
+    background: thistle;
+}
+
+ .cards h3{
+    text-align: center;
+ }  
